@@ -145,7 +145,7 @@ array:50 [▼
 
     return [
     
-        //支付宝合作信息
+        //qq的信息
         'qq' => [
             'drive'         => 'qq',//登录方式
             'app_id'        => '',//app_key
