@@ -75,7 +75,7 @@ class WeiboAdapter extends  AbstractAdapter
             'redirect_uri'  => $this->config['callback'],
         ]);
 
-        return json_decode(curlPost($url), true);
+        return json_decode($this->curlPost($url), true);
     }
 
     /**
@@ -91,7 +91,7 @@ class WeiboAdapter extends  AbstractAdapter
             'access_token'  => $access_token,
             'uid'           => $uid,
         ]);
-        return json_decode(curlGet($url), true);
+        return json_decode($this->curlGet($url), true);
     }
 
 }
