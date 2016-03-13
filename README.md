@@ -3,7 +3,7 @@
 * 在 ``` composer.json ``` 加入 ``` "yangyifan/laravel-oauth" : "dev-master" ```
 * 执行 ``` php composer update -vvv yangyifan/laravel-oauth ``` 注意 ```php``` 必须定位到您本机安装的php目录下面的bin目录下面的php路径
 * 在 ``` config/app.php ``` 加入 ``` 'Yangyifan\OAuth\OAuthServiceProvider' ```
-* 在 ``` config\app.php ``` 加入 ``` 'Pay'       => Yangyifan\OAuth\Facades\OAuth::class ```
+* 在 ``` config\app.php ``` 加入 ``` 'OAuth'       => Yangyifan\OAuth\Facades\OAuth::class ```
 * 在 ``` config\oauth.php ``` 文件自定义自己的参数
 
 
