@@ -11,8 +11,6 @@
 
 namespace Yangyifan\OAuth\Oauth;
 
-use InvalidArgumentException;
-
 class WeiboAdapter extends  AbstractAdapter
 {
     const VERSION               = "2.0";

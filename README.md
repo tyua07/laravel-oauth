@@ -10,7 +10,8 @@
 ### 支持
 
 * 微博
-* qq(还未完成)
+* qq
+* .. 其他的还在继续申请中,如果有需要我支持的,我免费完成您的需求,欢迎联系我,email:yangyifanphp@gmail.com
 
 ### Laravel 要求
 * ``` >= 5.0 ``` 
@@ -152,6 +153,8 @@ array:50 [▼
             'app_key'       => '',//app_key
             'callback'      => '',//回调地址
             'scope'         => 'get_user_info,do_like',//请求用户授权时向用户显示的可进行授权的列表。
+            'response_type' => 'code',//授权类型，此值固定为“code”。
+            'grant_type'    => 'authorization_code',
         ],
     
         'weibo' => [
