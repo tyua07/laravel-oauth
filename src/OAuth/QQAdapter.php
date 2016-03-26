@@ -19,7 +19,7 @@ class QQAdapter extends AbstractAdapter
     const GET_AUTH_CODE_URL     = "https://graph.qq.com/oauth2.0/authorize";
     const GET_ACCESS_TOKEN_URL  = "https://graph.qq.com/oauth2.0/token";
     const GET_OPENID_URL        = "https://graph.qq.com/oauth2.0/me";
-    const GET_USER_INFO_URL     = "https://graph.qq.com/user/get_info";
+    const GET_USER_INFO_URL     = "https://graph.qq.com/user/get_user_info";
 
     /**
      * 配置信息
